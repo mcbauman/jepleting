@@ -48,7 +48,7 @@ export default function Page1(){
                     </tr>
                     <tr>
                         <td>✅</td>
-                        <td>{trans[lang].translation}</td>
+                        <td>{trans[lang].tranlations}</td>
                         <td>25.04.2022</td>
                         <td>useContext</td>
                     </tr>
@@ -65,9 +65,9 @@ export default function Page1(){
                         <td>Ionos, Netlify</td>
                     </tr>
                     <tr>
-                        <td>⚠️</td>
+                        <td>✅</td>
                         <td>{trans[lang].routes}</td>
-                        <td>27.04.2022</td>
+                        <td>26.04.2022</td>
                         <td></td>
                     </tr>
                     <tr>
