@@ -14,7 +14,7 @@ export default function App(){
                 <Nav/>
                 <Routes>
                     <Route path="main/page1" element={<Page1/>}></Route>
-                    <Route path="main/page2" element={<CV/>}></Route>
+                    <Route path="/" element={<CV/>}></Route>
                     <Route path="main/logIn" element={<LogIn/>}></Route>
                     <Route path="main/signIn" element={<SignIn/>}></Route>
                 </Routes>

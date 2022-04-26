@@ -66,26 +66,32 @@ export default function Page1(){
                     </tr>
                     <tr>
                         <td>⚠️</td>
+                        <td>Projekte Route</td>
+                        <td>27.04.2022</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>⚠️</td>
                         <td>Domain zuweisen</td>
-                        <td>26.04.2022</td>
+                        <td>27.04.2022</td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>⚠️</td>
                         <td>Routing verbessern</td>
-                        <td>26.04.2022</td>
+                        <td>28.04.2022</td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>⚠️</td>
                         <td>BackEnd online bringen</td>
-                        <td>27.04.2022</td>
+                        <td>30.04.2022</td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>⚠️</td>
                         <td>Responsivness</td>
-                        <td>27.04.2022</td>
+                        <td>30.04.2022</td>
                         <td></td>
                     </tr>
                     <tr>

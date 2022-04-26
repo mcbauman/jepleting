@@ -10,7 +10,7 @@ export default function Header(){
         <nav>
             <div>
                 <NavLink to="/main/page1">{trans[lang].page1}</NavLink>
-                <NavLink to="/main/page2">{trans[lang].page2}</NavLink>
+                <NavLink to="/">{trans[lang].page2}</NavLink>
                 <NavLink to="/main/logIn">{trans[lang].logIn}</NavLink>
                 <NavLink to="/main/signIn">{trans[lang].signIn}</NavLink>
             </div>
