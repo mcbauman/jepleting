@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-size: 16px;
+}
+
+html{
+    background-color: rgb(73, 73, 73);
+    font-family: 'Ubuntu', sans-serif;
+    body{
+        background:linear-gradient(135deg, grey, lightgrey, grey,lightgrey,grey);
+        margin:0 auto;
+        width:800px;
+        background-color: white;
+        
+        .mainWrapper{
+            display: grid;
+        grid-template-columns: 250px 550px;
+        grid-template-areas:
+        "upleft upright"
+        "aside main";
+            nav{
+                grid-area: upleft;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    a{
+                        color:darkred
+                    }
+                }
+                select{
+                    height: 60%;
+                }
+            }
+
+            header{
+                padding: 15px;
+                grid-area: upright;
+                color:darkred;
+            }
+            aside{
+                padding: 0 15px;
+                grid-area: aside;
+                color:black;
+                article{
+                    table{
+                        // width: 10px;
+                        // background-color: red;
+                    }
+                }
+            }
+            main{
+                padding: 15px;
+                border-radius: 15px;
+                grid-area:main;
+                background-color: white;
+                box-shadow: 5px 5px 5px lightgray inset;
+                article{
+                    section{
+                        div{
+                            display: flex;
+                            justify-content: space-between;
+                        }
+                    }
+                }
+            }     
+        }
+    }
+}
+
+
+aside{
+
+}
+main{
+
+}
+
+h1{
+    font-size: 3rem;
+    font-variant: small-caps;
+}
+h2{
+    font-size: 2rem;
+    font-variant: small-caps;
+}
+h3{
+    font-size: 1.5rem;;
+    color:darkred;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+h4{
+    font-size: 1.3rem;
+    margin-top: 25px;
+}
+h5{
+    margin-top:7px;
+    font-style: italic;
+    font-weight: normal;
+}    
+ul{
+    padding-left: 20px;
+    list-style-type: circle;
+}
+li{
+    margin-top:5px;
+}
+img{
+    padding-top: 0;
+    width: 100%;
+    border-radius: 10px;
+}
+
+a{
+    color:darkred;
+}
+
+#navBtn{
+    font-size: 2rem;
+    color: darkred;
+}
+// h1{
+//     padding:0;
+//     margin:0;
+// }
+// body{
+//     font-family: 'Ubuntu', sans-serif;
+//     margin:0;
+//     padding:0;
+//     div{
+//         padding:0 2%;
+//         header{
+//             display: flex;
+//             justify-content: space-between;
+//             align-items: center;
+//             height: 10vh;
+//             padding:0 5px;
+//             select{
+//                 height: 85%;
+//                 font-size: 2.5rem;
+//                 background-color: black;
+//                 color: white;
+//                 border-radius: 10%;
+//             }
+//         }
+//         main{
+//             border-radius: 10px;
+//             height: 85vh;
+//             padding:0 5px;
+//         }
+//         footer{
+//             height: 5vh;
+//             padding:0 5px;
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//         }
+//     }
+// }
+
+
+// #ke{
+//     background-color: black; 
+//     header{
+//         background-color: black;
+//         color:white;
+//         a{
+//             color:white;
+//         }
+//         a:hover{
+//             color:rgb(181,0,0);
+//         }
+//     }
+//     main{
+//         background-color: rgb(181,0,0);
+//         color:white;
+//         box-shadow:0 0 10px white inset;
+//     }
+//     footer{
+//         background-color: rgb(0,99,2);
+//         color:white;
+//         box-shadow:0 5px 10px black inset;
+//     }
+// }
+// #de{
+//     background-color: black;
+//     header{
+//         background-color: black;
+//         color:rgb(254,205,1);
+//         a{
+//             color:rgb(254,205,1);
+//         }
+//         a:hover{
+//             color:white;
+//         }
+//     }
+//     main{
+//         background-color: rgb(214,0,0);
+//         color:rgb(254,205,1);
+//         box-shadow:0 0 10px rgb(254,205,1) inset;
+//     }
+//     footer{
+//         background-color: rgb(254,205,1);
+//         color:black;
+//         box-shadow:0 5px 10px black inset;
+//     }
+// }
+// #en{
+//     background-color: rgb(49,49,136);
+//     header{
+//         background-color: rgb(49,49,136);
+//         color:white;
+//         a{
+//             color:white;
+//         }
+//         a:hover{
+//             color:rgb(236,27,36);
+//         }
+//         select{
+//             background-color: rgb(49,49,136);
+//         }
+//     }
+//     main{
+//         background-color: rgb(236,27,36);;
+//         color:white;
+//         box-shadow:0 0 10px white inset;
+//     }
+//     footer{
+//         background-color: rgb(49,49,136);
+//         color:white;
+//     }
+// }
