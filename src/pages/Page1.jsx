@@ -17,92 +17,92 @@ export default function Page1(){
             <main>
                 <table>
                     <tr>
-                        <th>steps</th>
-                        <th>status</th>
-                        <th>date</th>
-                        <th>used</th>
+                        <th>{trans[lang].steps}</th>
+                        <th>{trans[lang].status}</th>
+                        <th>{trans[lang].date}</th>
+                        <th>{trans[lang].used}</th>
                     </tr>
                     <tr>
                         <td>✅</td>
-                        <td>Lebenslauf erstellt</td>
+                        <td>{trans[lang].cv}</td>
                         <td>24.04.2022</td>
                         <td>FontAwesome, html, css</td>
                     </tr>
                     <tr>
                         <td>✅</td>
-                        <td>elementare Backendfuntionen</td>
+                        <td>{trans[lang].backE}</td>
                         <td>24.04.2022</td>
                         <td>Express(),Mongoose.Schema(), .env</td>
                     </tr>
                     <tr>
                         <td>✅</td>
-                        <td>Mongoo Datenbank</td>
+                        <td>{trans[lang].mongo}</td>
                         <td>24.04.2022</td>
                         <td>MongoDB Compass, cloud-host</td>
                     </tr>
                     <tr>
                         <td>✅</td>
-                        <td>Grundlegendes Frontend</td>
+                        <td>{trans[lang].frontend}</td>
                         <td>25.04.2022</td>
                         <td>React, Node-js, </td>
                     </tr>
                     <tr>
                         <td>✅</td>
-                        <td>Übersetzung English/Deutsch</td>
+                        <td>{trans[lang].translation}</td>
                         <td>25.04.2022</td>
                         <td>useContext</td>
                     </tr>
                     <tr>
                         <td>✅</td>
-                        <td>Basis-Styling</td>
+                        <td>{trans[lang].styling}</td>
                         <td>26.04.2022</td>
                         <td>css, scss</td>
                     </tr>
                     <tr>
                         <td>✅</td>
-                        <td>Website geht online</td>
+                        <td>{trans[lang].deploy}</td>
                         <td>26.04.2022</td>
                         <td>Ionos, Netlify</td>
                     </tr>
                     <tr>
                         <td>⚠️</td>
-                        <td>Projekte Route</td>
+                        <td>{trans[lang].routes}</td>
                         <td>27.04.2022</td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>⚠️</td>
-                        <td>Domain zuweisen</td>
+                        <td>{trans[lang].domain}</td>
                         <td>27.04.2022</td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>⚠️</td>
-                        <td>Routing verbessern</td>
+                        <td>{trans[lang].routing}</td>
                         <td>28.04.2022</td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>⚠️</td>
-                        <td>BackEnd online bringen</td>
+                        <td>{trans[lang].backend}</td>
                         <td>30.04.2022</td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>⚠️</td>
-                        <td>Responsivness</td>
+                        <td>{trans[lang].response}</td>
                         <td>30.04.2022</td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>❓</td>
-                        <td>Wetter oder Maps</td>
+                        <td>{trans[lang].api}</td>
                         <td>01.05.2022</td>
                         <td>API</td>
                     </tr>
                     <tr>
                         <td>❓</td>
-                        <td>Landing Page</td>
+                        <td>{trans[lang].landing}</td>
                         <td>01.05.2022</td>
                         <td>CSS-Animations</td>
                     </tr>

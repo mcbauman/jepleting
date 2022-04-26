@@ -50,8 +50,15 @@ export default function SignIn(){
         }else{alert(trans[lang].signUpAlert)}
     }
     return(
-        <form action="" onSubmit={submitFunction}>
-            <h1>{trans[lang].signIn}</h1>
+        <>
+            <header>
+                <h1>{trans[lang].signIn}</h1>
+            </header>
+            <aside>
+                <h3>{trans[lang].underConst}</h3>
+            </aside>
+            <main>
+            <form action="" onSubmit={submitFunction}>
             <select name="gender" id="gender" onChange={e=>setGender(e.target.value)}>
                 <option value="male">{trans[lang].male}</option>
                 <option value="female">{trans[lang].female}</option>
@@ -64,5 +71,7 @@ export default function SignIn(){
             <input type="date" name="dateofbirth" id="dateofbirt" placeholder={trans[lang].dateob}  onChange={e=>setDateOfBirth(e.target.value)}/>
             <button type="submit">{trans[lang].submit}</button>
         </form>
+            </main>
+        </>
     )
 }

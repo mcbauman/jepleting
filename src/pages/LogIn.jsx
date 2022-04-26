@@ -37,11 +37,20 @@ export default function LogIn(){
         }else{alert(trans[lang].loginAlert)}
     }
     return(
-        <form action="" onSubmit={submitFunction}>
+        <>
+            <header>
             <h1>{trans[lang].logIn}</h1>
+            </header>
+            <aside>
+            <h3>{trans[lang].underConst}</h3>
+            </aside>
+            <main>
+            <form action="" onSubmit={submitFunction}>
             <input type="text" name="username" id="username" placeholder={trans[lang].username} onChange={e=>setUser(e.target.value)}/>
             <input type="password" name="password" id="password" placeholder={trans[lang].password} onChange={e=>setPassword(e.target.value)}/>
             <button type="submit">{trans[lang].submit}</button>
         </form>
+            </main>
+        </>
     )
 }
