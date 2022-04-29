@@ -12,12 +12,12 @@ html{
     body{
         background:linear-gradient(135deg, grey, lightgrey, grey,lightgrey,grey);
         margin:0 auto;
-        width:800px;
+        max-width:800px;
         background-color: white;
         
         .mainWrapper{
             display: grid;
-        grid-template-columns: 250px 550px;
+        grid-template-columns: 25fr 55fr;
         grid-template-areas:
         "upleft upright"
         "aside main";
@@ -56,11 +56,14 @@ html{
                 }
             }
             main{
+                width: 90%;
                 padding: 15px;
                 border-radius: 15px;
-                grid-area:main;
                 background-color: white;
                 box-shadow: 5px 5px 5px lightgray inset;
+                table{
+                    overflow: wrap;
+                }
                 article{
                     section{
                         div{
@@ -237,3 +240,19 @@ a{
 //         color:white;
 //     }
 // }
+
+// 461
+@media screen and (max-width:461px) {
+    html{
+        body{
+            .mainWrapper{
+                grid-template-columns: 1fr;
+                grid-template-areas:
+                    "upleft"
+                    "upright"
+                    "aside"
+                    "main";
+            }
+        }
+    }
+}

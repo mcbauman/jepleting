@@ -68,7 +68,7 @@ export default function Page1(){
                         <td>✅</td>
                         <td>{trans[lang].routes}</td>
                         <td>26.04.2022</td>
-                        <td></td>
+                        <td>Github</td>
                     </tr>
                     <tr>
                         <td>⚠️</td>
@@ -77,7 +77,7 @@ export default function Page1(){
                         <td></td>
                     </tr>
                     <tr>
-                        <td>⚠️</td>
+                        <td>✅</td>
                         <td>{trans[lang].routing}</td>
                         <td>28.04.2022</td>
                         <td></td>
