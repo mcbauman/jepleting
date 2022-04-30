@@ -19,7 +19,7 @@ export default function Page2(){
             <img src={walp} alt=""/>
                 <article>
                     <h3>{transl[lang].resume}</h3>
-                    <p>{transl[lang].resumeText}</p>
+                    <p>{transl[lang].resumeText2}</p>
                 </article>
                 <article>
                     <h3>{transl[lang].skills}</h3>
@@ -155,7 +155,7 @@ export default function Page2(){
                             <h5>04.2022-08.2022</h5>
                         </div>
                         <ul>
-                            <li>Simple Example to expain Content <a href="https://github.com/mcbauman/TutoringUseEffect" target="_blank" rel="noopener noreferrer"><FaGithub/></a></li>
+                            <li>{trans[lang].exampleText} <a href="https://github.com/mcbauman/TutoringUseEffect" target="_blank" rel="noopener noreferrer"><FaGithub/></a></li>
                         </ul>
                     </section>
                     <section>

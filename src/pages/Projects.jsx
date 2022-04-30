@@ -37,6 +37,7 @@ export default function Projects(){
                         <td>{trans[lang].repFront}</td>
                         <td>{trans[lang].repFrontText}</td>
                         <td><a href="https://github.com/mcbauman/react-repeating-Forlage" target="_blank" rel="noopener noreferrer"><FaGithub/></a></td>
+                        <td><a href="https://classy-youtiao-acda1b.netlify.app" target="_blank" rel="noopener noreferrer"> <FaFirefox/> </a></td>
                     </tr>
                     <tr>
                         <td>Aviation-Weather</td>

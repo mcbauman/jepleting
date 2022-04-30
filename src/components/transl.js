@@ -2,7 +2,7 @@ const transl={
     de:{
         resume:"Kurzbeschreibung",
         resumeText:"Starker Wille und Fokus halfen mir, Ziele zu erreichen, auch wenn die erforderlichen Fähigkeiten zunächst meine Schwächen waren. Beispiele sind meine Erfolge im Sport oder Verkauf, aber auch mein Englischniveau. Seit DCI habe ich die erste Vorstellung davon bekommen, wie schnell ich mein Wissen verbessern kann, wenn ich meiner wahren Leidenschaft nachgehe.",
-        resumeText2:"",
+        resumeText2:"Fokussierter und willensstarker Full Stack Web Entwickler mit Erfahrung in MongooDB, Express, React, und Node auf der Suche nach einer Tätigkeit als als Web/App-Developer, um meine  Fähigkeiten weiter zu vertiefen.",
         skills:"Programmiersprachen",
         language:"Sparchkenntnisse",
         deutsch:"Deutsch",
@@ -48,7 +48,7 @@ const transl={
     en:{
         resume:"Career objective",
         resumeText:"Strong will and focus hepled me to reach goals, even if the needed skill was initailly my weaknesses. Examples are my success in sports or sales, but also my English level. Since DCI I got the first idea of how fast I can improve my knowledge when I follow my real passion.",
-        resumeText2:"",
+        resumeText2:"Focused and strong-willed full stack web developer with experience in MongooDB, Express, React, and Node looking for a job as a web/app developer to expand my skills.",
         skills:"Skills",
         language:"Language skills",
         deutsch:"German",
@@ -94,7 +94,7 @@ const transl={
     ke:{
         resume:"Career objective",
         resumeText:"Strong will and focus hepled me to reach goals, even if the needed skill was initailly my weaknesses. Examples are my success in sports or sales, but also my English level. Since DCI I got the first idea of how fast I can improve my knowledge when I follow my real passion.",
-        resumeText2:"",
+        resumeText2:"Focused and strong-willed full stack web developer with experience in MongooDB, Express, React, and Node looking for a job as a web/app developer to expand my skills.",
         skills:"Skills",
         language:"Language skills",
         deutsch:"German",
