@@ -5,6 +5,7 @@ import { useContext } from "react"
 import {FaHtml5,FaCss3, FaJs, FaNodeJs, FaReact, FaCamera, FaHeart, FaRunning, FaSwimmer, FaPhone, FaAt, FaFirefox, FaGithub, FaEnvelope } from "react-icons/fa"
 import {IoBicycle} from "react-icons/io5"
 import {MdFamilyRestroom} from "react-icons/md"
+import {FaLinkedin} from "react-icons/fa"
 import walp from "./Walp21.jpg"
 
 export default function Page2(){
@@ -89,11 +90,15 @@ export default function Page2(){
                     </tr>
                     <tr>
                         <th><FaFirefox/></th>
-                        <td><a href="http://">www.jepleting.de</a></td>
+                        <td><a href="http://jepleting.de" target="_blank">www.jepleting.de</a></td>
                     </tr>
                     <tr>
                         <th><FaGithub/></th>
-                        <td><a href="https://github.com/mcbauman">https://github.com/<br/>mcbauman</a> </td>
+                        <td><a href="https://github.com/mcbauman" target="_blank">https://github.com/<br/>mcbauman</a> </td>
+                    </tr>
+                    <tr>
+                        <th><FaLinkedin/></th>
+                        <td><a href="https://www.linkedin.com/in/matthias-baumann-521511238/" target="_blank" rel="noopener noreferrer">www.linkedIn.com/in/matthias-baumann-521511238</a></td>
                     </tr>
                     <tr>
                         <th><FaEnvelope/></th>
