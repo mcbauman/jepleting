@@ -63,6 +63,7 @@ html{
                 box-shadow: 5px 5px 5px lightgray inset;
                 table{
                     border-collapse: collapse;
+                    width: 100%;
                 }
                 article{
                     section{
@@ -242,6 +243,21 @@ a{
 // }
 
 // 461
+@media screen and (max-width:550px) {
+    html{
+        body{
+            .mainWrapper{
+                main{
+                    table{
+                        td{
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 @media screen and (max-width:461px) {
     html{
         body{
