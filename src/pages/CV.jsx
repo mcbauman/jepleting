@@ -3,7 +3,8 @@ import {Context} from "../context/langContext.js"
 import { useContext } from "react"
 import {FaHtml5,FaCss3, FaJs, FaNodeJs, FaReact, FaCamera, FaHeart, FaRunning, FaSwimmer, FaPhone, FaAt, FaFirefox, FaGithub, FaEnvelope } from "react-icons/fa"
 import {IoBicycle} from "react-icons/io5"
-import walp from "./Walp.jpg"
+import {MdFamilyRestroom} from "react-icons/md"
+import walp from "./Walp2.jpg"
 
 export default function Page2(){
     const {lang}=useContext(Context)
@@ -47,12 +48,31 @@ export default function Page2(){
                     </table>
                 </article>
                 <article>
+                    <h3>{transl[lang].language}</h3>
+                    <table>
+                    <tbody>
+                        <tr>
+                            <td>{transl[lang].deutsch}</td>
+                            <td>{transl[lang].motherTounge}</td>
+                        </tr>
+                        <tr>
+                            <td>{transl[lang].english}</td>
+                            <td>B2</td>
+                        </tr>
+                        <tr>
+                            <td>{transl[lang].russisch}</td>
+                            <td>A1</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </article>
+                <article>
                     <h3>Hobbys</h3>
                     <IoBicycle/>
                     <FaRunning/>
                     <FaSwimmer/>
                     <FaCamera/>
-                    <FaHeart/>
+                    <MdFamilyRestroom/>
                 </article>
                 <article>
                 <h3>{transl[lang].contact}</h3>
@@ -88,7 +108,7 @@ export default function Page2(){
                     <section>
                         <h4>{transl[lang].kurs}</h4>
                         <div>
-                            <h5>Digital Career Institute</h5>
+                            <h5>DCI Digital Career Institute gGmbH (remote)</h5>
                             <h5>09.2021-09.2022</h5>
                         </div>
                     <ul>
@@ -107,7 +127,7 @@ export default function Page2(){
                     <section>
                         <h4>{transl[lang].aublildungBKM}</h4>
                         <div>
-                            <h5>Haspa</h5>
+                            <h5>Hamburger Sparkasse (Haspa) AG</h5>
                             <h5>08.2004-06.2006</h5>
                         </div>
                     </section>
@@ -115,9 +135,27 @@ export default function Page2(){
                 <article>
                     <h3>{transl[lang].beruflicheErfahrungen}</h3>
                     <section>
+                        <h4>Projekte DCI</h4>
+                        <div>
+                            <h5>remote</h5>
+                            <h5>09.2021-09.2022</h5>
+                        </div>
+                    </section>
+                    <section>
+                        <h4>{transl[lang].selbststudium}</h4>
+                        <div>
+                            <h5>remote</h5>
+                            <h5>04.2021-05.2021</h5>
+                        </div>
+                        <ul>
+                            <li>{transl[lang].lernpojekt} fahrradfreunde.de<a href="http://github.com/mcbauman/kniffel" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a><a href="http://mcbauman.github.io/kniffel/" target="_blank" rel="noopener noreferrer"> <FaFirefox/> </a></li>
+                            <li>{transl[lang].lernpojekt} Kniffel<a href="https://github.com/mcbauman/fahrradfreunde" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a><a href="https://mcbauman.github.io/fahrradfreunde/" target="_blank" rel="noopener noreferrer"> <FaFirefox/> </a></li>
+                        </ul>
+                    </section>
+                    <section>
                         <h4>{transl[lang].sos}</h4>
                         <div>
-                            <h5>SOS-Kinderdorf Harksheide e.V.</h5>
+                            <h5>SOS-Kinderdorf Harksheide e.V. (Norderstedt)</h5>
                             <h5>08.2020-07.2021 bis</h5>
                         </div>
                         <ul>
@@ -127,7 +165,7 @@ export default function Page2(){
                     <section>
                         <h4>{transl[lang].audibene}</h4>
                         <div>
-                            <h5>Audibene</h5>
+                            <h5>Audibene (remote)</h5>
                             <h5>04.2020-07.2020</h5>
                         </div>
                         <ul>
@@ -137,7 +175,7 @@ export default function Page2(){
                     <section>
                         <h4>{transl[lang].dittmer}</h4>
                         <div>
-                            <h5>Mobilfunk Dittmer GmbH</h5>
+                            <h5>Mobilfunk Dittmer GmbH (Bad Bramstedt)</h5>
                             <h5>02.2017-03.2020</h5>
                         </div>
                         <ul>
@@ -148,14 +186,14 @@ export default function Page2(){
                     <section>
                         <h4>{transl[lang].dittmerIZ}</h4>
                         <div>
-                            <h5>Mobilfunk Dittmer GmbH</h5>
+                            <h5>Mobilfunk Dittmer GmbH (Itzehoe)</h5>
                             <h5>07.2016-01.2017</h5>
                         </div>
                         <ul>
                             <li>{transl[lang].dittmerIZText}</li>
                         </ul>
                     </section>
-                    <section>
+                    {/* <section>
                         <h4>{transl[lang].mediaMarkt}</h4>
                         <div>
                             <h5>MediaMarkt Hamburg-Altona</h5>
@@ -175,7 +213,7 @@ export default function Page2(){
                             <li>{transl[lang].lbsText}</li>
                             <li>{transl[lang].lbsText2}</li>
                         </ul>
-                    </section>
+                    </section> */}
                     <section>
                         <h4>{transl[lang].spk}</h4>
                         <div>
@@ -189,7 +227,7 @@ export default function Page2(){
                             <li>{transl[lang].spkText4}</li>
                         </ul>
                     </section>
-                    <section>
+                    {/* <section>
                         <h4>{transl[lang].vdf}</h4>
                         <div>
                             <h5>Vodafone Firmenkunden Hamburg</h5>
@@ -203,13 +241,13 @@ export default function Page2(){
                     <section>
                         <h4>{transl[lang].haspa}</h4>
                         <div>
-                            <h5>Haspa</h5>
+                            <h5>Hamburger Sparkasse (Haspa) AG</h5>
                             <h5>08.2004-06.2006</h5>
                         </div>
                         <ul>
                             <li>{transl[lang].paspaText}</li>
                         </ul>
-                    </section>
+                    </section> */}
                 </article>
             </main>
         </>

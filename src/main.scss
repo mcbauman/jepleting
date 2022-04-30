@@ -62,7 +62,7 @@ html{
                 background-color: white;
                 box-shadow: 5px 5px 5px lightgray inset;
                 table{
-                    overflow: wrap;
+                    border-collapse: collapse;
                 }
                 article{
                     section{
