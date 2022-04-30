@@ -1,10 +1,11 @@
 import transl from "../components/transl.js"
+import trans from "../components/lang.js"
 import {Context} from "../context/langContext.js"
 import { useContext } from "react"
 import {FaHtml5,FaCss3, FaJs, FaNodeJs, FaReact, FaCamera, FaHeart, FaRunning, FaSwimmer, FaPhone, FaAt, FaFirefox, FaGithub, FaEnvelope } from "react-icons/fa"
 import {IoBicycle} from "react-icons/io5"
 import {MdFamilyRestroom} from "react-icons/md"
-import walp from "./Walp2.jpg"
+import walp from "./Walp21.jpg"
 
 export default function Page2(){
     const {lang}=useContext(Context)
@@ -140,6 +141,22 @@ export default function Page2(){
                             <h5>remote</h5>
                             <h5>09.2021-09.2022</h5>
                         </div>
+                        <ul>
+                            <li>Weather Groupwork PW=15032022, React, API<a href="http://sleepy-sierra-90704.herokuapp.com" target="_blank" rel="noopener noreferrer"> <FaFirefox/> </a> <a href="https://github.com/mcbauman/weather_Groupwork" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a></li>
+                            <li>Repeating React-techniques <a href="https://classy-youtiao-acda1b.netlify.app" target="_blank" rel="noopener noreferrer"> <FaFirefox/> </a><a href="https://github.com/mcbauman/react-repeating-Forlage" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a></li>
+                            <li>{trans[lang].mernText}<a href="https://github.com/mcbauman/secondFullStack" target="_blank" rel="noopener noreferrer"> <FaGithub/></a></li>
+                            <li>{trans[lang].this}<a href="https://github.com/mcbauman/jepleting" target="_blank" rel="noopener noreferrer"><FaGithub/></a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4>{trans[lang].tutoringStudens}</h4>
+                        <div>
+                            <h5>remote</h5>
+                            <h5>04.2022-08.2022</h5>
+                        </div>
+                        <ul>
+                            <li>Simple Example to expain Content <a href="https://github.com/mcbauman/TutoringUseEffect" target="_blank" rel="noopener noreferrer"><FaGithub/></a></li>
+                        </ul>
                     </section>
                     <section>
                         <h4>{transl[lang].selbststudium}</h4>
@@ -148,8 +165,8 @@ export default function Page2(){
                             <h5>04.2021-05.2021</h5>
                         </div>
                         <ul>
-                            <li>{transl[lang].lernpojekt} fahrradfreunde.de<a href="http://github.com/mcbauman/kniffel" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a><a href="http://mcbauman.github.io/kniffel/" target="_blank" rel="noopener noreferrer"> <FaFirefox/> </a></li>
-                            <li>{transl[lang].lernpojekt} Kniffel<a href="https://github.com/mcbauman/fahrradfreunde" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a><a href="https://mcbauman.github.io/fahrradfreunde/" target="_blank" rel="noopener noreferrer"> <FaFirefox/> </a></li>
+                            <li>{transl[lang].lernpojekt} fahrradfreunde.de, html, css<a href="http://github.com/mcbauman/kniffel" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a><a href="http://mcbauman.github.io/kniffel/" target="_blank" rel="noopener noreferrer"> <FaFirefox/> </a></li>
+                            <li>{transl[lang].lernpojekt} Kniffel, JavaScript<a href="https://github.com/mcbauman/fahrradfreunde" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a><a href="https://mcbauman.github.io/fahrradfreunde/" target="_blank" rel="noopener noreferrer"> <FaFirefox/> </a></li>
                         </ul>
                     </section>
                     <section>

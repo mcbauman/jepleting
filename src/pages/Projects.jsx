@@ -39,6 +39,12 @@ export default function Projects(){
                         <td><a href="https://github.com/mcbauman/react-repeating-Forlage" target="_blank" rel="noopener noreferrer"><FaGithub/></a></td>
                     </tr>
                     <tr>
+                        <td>Aviation-Weather</td>
+                        <td>Groupwork Project</td>
+                        <td><a href="https://github.com/mcbauman/weather_Groupwork" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a></td>
+                        <td><a href="http://sleepy-sierra-90704.herokuapp.com" target="_blank" rel="noopener noreferrer"> <FaFirefox/></a></td>
+                    </tr>
+                    <tr>
                         <td>Full Stack</td>
                         <td>{trans[lang].mernText}</td>
                         <td><a href="https://github.com/mcbauman/secondFullStack" target="_blank" rel="noopener noreferrer"><FaGithub/></a></td>

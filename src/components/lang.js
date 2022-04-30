@@ -26,11 +26,11 @@ const trans={
         date:"Datum",
         used:"Tools",
         cv:"Lebenslauf erstellt",
-        backE:"grundliegende Backendfuntionen",
+        backE:"Grundliegende Backendfuntionen",
         mongo:"Mongoo DB erstellt und online",
         frontend:"Basis Frontend",
         tranlations:"Übersetzung English/Deutsch",
-        styling:"erstes Styling",
+        styling:"Erstes Styling",
         deploy:"Frontend geht online",
         routes:"Projekte zeigen",
         domain:"Domain zuweisen",
@@ -45,11 +45,12 @@ const trans={
         kniffelText:"Erste JS-App vor DCI",
         ffText:"Erste Website vor DCI",
         example:"Sehr einfaches Beispiel",
-        exampleText:"zum Tutoring genutzt",
+        exampleText:"Zum Tutoring genutzt",
         repFront:"Wiederholung Frontend",
         repFrontText:"Wiederhohlung aller Frontend Tools",
-        mernText:"erstes MERN Fullstack Projekt",
-        this:"diese Seite"
+        mernText:"Erstes MERN Fullstack Projekt",
+        this:"Diese Seite",
+        tutoringStudens:"Tutoring: Studenten einer anderen Klasse"
     },
     en:{
         title:"title",
@@ -97,11 +98,12 @@ const trans={
         kniffelText:"First JS-App even before DCI",
         ffText:"First Website befor DCI",
         example:"Simple Example",
-        exampleText:"used for Tutoring",
+        exampleText:"Used for Tutoring",
         repFront:"Repeating Frontend",
         repFrontText:"Repeating all Frontend Tools",
         mernText:"First MERN Fullstack Project",
-        this:"these Page"
+        this:"These Page",
+        tutoringStudens:"Tutoring students from a different class"
     },
     ke:{
         title:"title",
@@ -149,11 +151,12 @@ const trans={
         kniffelText:"First JS-App even before DCI",
         ffText:"First Website befor DCI",
         example:"Simple Example",
-        exampleText:"used for Tutoring",
+        exampleText:"Used for Tutoring",
         repFront:"Repeating Frontend",
         repFrontText:"Repeating all Frontend Tools",
         mernText:"First MERN Fullstack Project",
-        this:"these Page"
+        this:"These Page",
+        tutoringStudens:"Tutoring students from a different class"
     }
 }
 export default trans
