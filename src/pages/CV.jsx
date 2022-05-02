@@ -168,10 +168,10 @@ export default function Page2(){
                         <div>
                             <h5>remote</h5>
                             <h5>04.2021-05.2021</h5>
-                        </div>
+                        </div>fahrradfreunde.de, html, css
                         <ul>
-                            <li>{transl[lang].lernpojekt} fahrradfreunde.de, html, css<a href="http://github.com/mcbauman/kniffel" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a><a href="http://mcbauman.github.io/kniffel/" target="_blank" rel="noopener noreferrer"> <FaFirefox/> </a></li>
-                            <li>{transl[lang].lernpojekt} Kniffel, JavaScript<a href="https://github.com/mcbauman/fahrradfreunde" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a><a href="https://mcbauman.github.io/fahrradfreunde/" target="_blank" rel="noopener noreferrer"> <FaFirefox/> </a></li>
+                            <li>{transl[lang].lernpojekt} Kniffel, JavaScript<a href="http://github.com/mcbauman/kniffel" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a><a href="http://mcbauman.github.io/kniffel/" target="_blank" rel="noopener noreferrer"> <FaFirefox/> </a></li>
+                            <li>{transl[lang].lernpojekt} fahrradfreunde.de, html, css<a href="https://github.com/mcbauman/fahrradfreunde" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a><a href="https://mcbauman.github.io/fahrradfreunde/" target="_blank" rel="noopener noreferrer"> <FaFirefox/> </a></li>
                         </ul>
                     </section>
                     <section>
