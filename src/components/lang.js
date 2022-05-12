@@ -50,7 +50,7 @@ const trans={
         repFrontText:"Wiederhohlung aller Frontend Tools",
         mernText:"Erstes MERN Fullstack Projekt",
         this:"Diese Seite",
-        tutoringStudens:"Tutoring: Studenten einer anderen Klasse"
+        tutoringStudens:"Tutor für Studenten in Web Entwicklung"
     },
     en:{
         title:"title",

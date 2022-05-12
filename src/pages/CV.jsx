@@ -143,7 +143,7 @@ export default function Page2(){
                     <section>
                         <h4>Projekte DCI</h4>
                         <div>
-                            <h5>remote</h5>
+                            <h5>DCI Digital Career Institute gGmBH (remote)</h5>
                             <h5>09.2021-09.2022</h5>
                         </div>
                         <ul>
@@ -156,7 +156,7 @@ export default function Page2(){
                     <section>
                         <h4>{trans[lang].tutoringStudens}</h4>
                         <div>
-                            <h5>remote</h5>
+                            <h5>DCI Digital Career Institute gGmBH (remote)</h5>
                             <h5>04.2022-08.2022</h5>
                         </div>
                         <ul>
