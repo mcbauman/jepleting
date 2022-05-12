@@ -50,6 +50,9 @@ html{
                 color:black;
                 article{
                     table{
+                        td,th{
+                            padding:1px;
+                        }
                         // width: 100%;
                         // background-color: red;
                     }
@@ -57,7 +60,7 @@ html{
             }
             main{
                 width: 90%;
-                padding: 15px;
+                padding: 30px 15px;
                 border-radius: 15px;
                 background-color: white;
                 box-shadow: 5px 5px 5px lightgray inset;
@@ -97,24 +100,29 @@ h2{
 h3{
     font-size: 1.5rem;;
     color:darkred;
-    margin-top: 35px;
+    margin-top: 50px;
     margin-bottom: 10px;
 }
 h4{
     font-size: 1.3rem;
-    margin-top: 25px;
+    margin-top: 45px;
 }
 h5{
-    margin-top:7px;
+    margin-top:17px;
     font-style: italic;
     font-weight: normal;
 }    
+
+p{
+    line-height: 130%;
+}
+
 ul{
     padding-left: 20px;
     list-style-type: circle;
 }
 li{
-    margin-top:5px;
+    margin-top:10px;
 }
 img{
     padding-top: 0;
@@ -129,6 +137,10 @@ a{
 #navBtn{
     font-size: 2rem;
     color: darkred;
+}
+
+svg{
+    margin-right: 10px;
 }
 // h1{
 //     padding:0;
