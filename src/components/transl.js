@@ -48,7 +48,7 @@ const transl={
     en:{
         resume:"Career objective",
         resumeText:"Strong will and focus hepled me to reach goals, even if the needed skill was initailly my weaknesses. Examples are my success in sports or sales, but also my English level. Since DCI I got the first idea of how fast I can improve my knowledge when I follow my real passion.",
-        resumeText2:"Focused and strong-willed full stack web developer with experience in MongooDB, Express, React, and Node looking for a job as a web/app developer to expand my skills.",
+        resumeText2:"Focused and strong-willed full stack web developer with experience in MongoDB, Express, React, and Node.js looking for a job as a web/app developer to expand my skills.",
         skills:"Skills",
         language:"Language skills",
         deutsch:"German",
@@ -94,7 +94,7 @@ const transl={
     ke:{
         resume:"Career objective",
         resumeText:"Strong will and focus hepled me to reach goals, even if the needed skill was initailly my weaknesses. Examples are my success in sports or sales, but also my English level. Since DCI I got the first idea of how fast I can improve my knowledge when I follow my real passion.",
-        resumeText2:"Focused and strong-willed full stack web developer with experience in MongooDB, Express, React, and Node looking for a job as a web/app developer to expand my skills.",
+        resumeText2:"Focused and strong-willed full stack web developer with experience in MongoDB, Express, React, and Node.js looking for a job as a web/app developer to expand my skills.",
         skills:"Skills",
         language:"Language skills",
         deutsch:"German",
