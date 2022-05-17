@@ -2,7 +2,7 @@ const transl={
     de:{
         resume:"Kurzbeschreibung",
         resumeText:"Starker Wille und Fokus halfen mir, Ziele zu erreichen, auch wenn die erforderlichen Fähigkeiten zunächst meine Schwächen waren. Beispiele sind meine Erfolge im Sport oder Verkauf, aber auch mein Englischniveau. Seit DCI habe ich die erste Vorstellung davon bekommen, wie schnell ich mein Wissen verbessern kann, wenn ich meiner wahren Leidenschaft nachgehe.",
-        resumeText2:"Fokussierter und willensstarker Full Stack Web Entwickler mit Erfahrung in MongooDB, Express, React, und Node auf der Suche nach einer Tätigkeit als als Web/App-Developer, um meine  Fähigkeiten weiter zu vertiefen.",
+        resumeText2:"Fokussierter und willensstarker Full Stack Web Entwickler mit Erfahrung in MongoDB, Express, React, und Node.js auf der Suche nach einer Tätigkeit als als Web/App-Developer, um meine  Fähigkeiten weiter zu vertiefen.",
         skills:"Programmiersprachen",
         language:"Sprachkenntnisse",
         deutsch:"Deutsch",
