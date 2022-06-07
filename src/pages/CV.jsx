@@ -151,6 +151,7 @@ export default function Page2(){
                             <li>Repeating React-techniques <a href="https://classy-youtiao-acda1b.netlify.app" target="_blank" rel="noopener noreferrer"> <FaFirefox/> </a><a href="https://github.com/mcbauman/react-repeating-Forlage" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a></li>
                             <li>{trans[lang].mernText}<a href="https://github.com/mcbauman/secondFullStack" target="_blank" rel="noopener noreferrer"> <FaGithub/></a></li>
                             <li>{trans[lang].this}<a href="https://github.com/mcbauman/jepleting" target="_blank" rel="noopener noreferrer"><FaGithub/></a></li>
+                            <li>{trans[lang].finalProjectText}: {trans[lang].finalProject}<a href="https://melodic-capybara-5d7bce.netlify.app" target="_blank" rel="noopener noreferrer"> <FaFirefox/> </a> <a href="https://github.com/mcbauman/Final-Project-friendsFinder" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a></li>
                         </ul>
                     </section>
                     <section>

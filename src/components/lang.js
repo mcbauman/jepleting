@@ -50,7 +50,9 @@ const trans={
         repFrontText:"Wiederhohlung aller Frontend Tools",
         mernText:"Erstes MERN Fullstack Projekt",
         this:"Diese Seite",
-        tutoringStudens:"Tutor für Studenten in Web Entwicklung"
+        tutoringStudens:"Tutor für Studenten in Web Entwicklung",
+        finalProject:"friendscircle.de",
+        finalProjectText:"Abschluss Projekt"
     },
     en:{
         title:"title",
@@ -103,7 +105,9 @@ const trans={
         repFrontText:"Repeating all Frontend Tools",
         mernText:"First MERN Fullstack Project",
         this:"These Page",
-        tutoringStudens:"Tutoring students from a different class"
+        tutoringStudens:"Tutoring students from a different class",
+        finalProject:"friendscircle.de",
+        finalProjectText:"Final project"
     },
     ke:{
         title:"title",
@@ -156,7 +160,9 @@ const trans={
         repFrontText:"Repeating all Frontend Tools",
         mernText:"First MERN Fullstack Project",
         this:"These Page",
-        tutoringStudens:"Tutoring students from a different class"
+        tutoringStudens:"Tutoring students from a different class",
+        finalProject:"friendscircle.de",
+        finalProjectText:"Final project"
     }
 }
 export default trans

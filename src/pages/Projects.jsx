@@ -55,11 +55,16 @@ export default function Projects(){
                         <td>Frontend</td>
                         <td><a href="https://github.com/mcbauman/jepleting" target="_blank" rel="noopener noreferrer"><FaGithub/></a></td>
                     </tr>
-
                     <tr>
                         <td>{trans[lang].this}</td>
                         <td>Backend</td>
                         <td><a href="https://github.com/mcbauman/jepleting-Server" target="_blank" rel="noopener noreferrer"><FaGithub/></a></td>
+                    </tr>
+                    <tr>
+                        <td>{trans[lang].finalProject}</td>
+                        <td>{trans[lang].finalProjectText}</td>
+                        <td><a href="https://github.com/mcbauman/Final-Project-friendsFinder" target="_blank" rel="noopener noreferrer"><FaGithub/></a></td>
+                        <td><a href="https://melodic-capybara-5d7bce.netlify.app/" target="_blank" rel="noopener noreferrer"> <FaFirefox/></a></td>
                     </tr>
                     </tbody>
                 </table>
