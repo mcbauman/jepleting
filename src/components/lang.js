@@ -52,7 +52,8 @@ const trans={
         this:"Diese Seite",
         tutoringStudens:"Tutor für Studenten in Web Entwicklung",
         finalProject:"friendscircle.de",
-        finalProjectText:"Abschluss Projekt"
+        finalProjectText:"Abschluss Projekt",
+        intern:"Praktikum software-Entwickler/Manager"
     },
     en:{
         title:"title",
@@ -107,7 +108,8 @@ const trans={
         this:"These Page",
         tutoringStudens:"Tutoring students from a different class",
         finalProject:"friendscircle.de",
-        finalProjectText:"Final project"
+        finalProjectText:"Final project",
+        intern:"Internship software-Developer/Manager"
     },
     ke:{
         title:"title",
@@ -162,7 +164,8 @@ const trans={
         this:"These Page",
         tutoringStudens:"Tutoring students from a different class",
         finalProject:"friendscircle.de",
-        finalProjectText:"Final project"
+        finalProjectText:"Final project",
+        intern:"Internship software-Developer/Manager"
     }
 }
 export default trans

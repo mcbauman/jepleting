@@ -141,17 +141,24 @@ export default function Page2(){
                 <article>
                     <h3>{transl[lang].beruflicheErfahrungen}</h3>
                     <section>
+                        <h4>{trans[lang].intern}</h4>
+                        <div>
+                            <h5>DMK IT Solutions</h5>
+                            <h5>07.2022-10.2022</h5>
+                        </div>
+                    </section>
+                    <section>
                         <h4>Projekte DCI</h4>
                         <div>
                             <h5>DCI Digital Career Institute gGmBH (remote)</h5>
                             <h5>09.2021-09.2022</h5>
                         </div>
                         <ul>
+                            <li>{trans[lang].finalProjectText}: {trans[lang].finalProject}<a href="https://friendscircle.de" target="_blank" rel="noopener noreferrer"> <FaFirefox/> </a> <a href="https://github.com/mcbauman/Final-Project-friendsFinder" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a></li>
+                            <li>{trans[lang].this}<a href="https://github.com/mcbauman/jepleting" target="_blank" rel="noopener noreferrer"><FaGithub/></a></li>
                             <li>Weather Groupwork PW=15032022, React, API<a href="http://sleepy-sierra-90704.herokuapp.com" target="_blank" rel="noopener noreferrer"> <FaFirefox/> </a> <a href="https://github.com/mcbauman/weather_Groupwork" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a></li>
                             <li>Repeating React-techniques <a href="https://classy-youtiao-acda1b.netlify.app" target="_blank" rel="noopener noreferrer"> <FaFirefox/> </a><a href="https://github.com/mcbauman/react-repeating-Forlage" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a></li>
                             <li>{trans[lang].mernText}<a href="https://github.com/mcbauman/secondFullStack" target="_blank" rel="noopener noreferrer"> <FaGithub/></a></li>
-                            <li>{trans[lang].this}<a href="https://github.com/mcbauman/jepleting" target="_blank" rel="noopener noreferrer"><FaGithub/></a></li>
-                            <li>{trans[lang].finalProjectText}: {trans[lang].finalProject}<a href="https://melodic-capybara-5d7bce.netlify.app" target="_blank" rel="noopener noreferrer"> <FaFirefox/> </a> <a href="https://github.com/mcbauman/Final-Project-friendsFinder" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a></li>
                         </ul>
                     </section>
                     <section>
@@ -206,7 +213,7 @@ export default function Page2(){
                             <li>{transl[lang].dittmerText2}</li>
                         </ul>
                     </section>
-                    <section>
+                    {/* <section>
                         <h4>{transl[lang].dittmerIZ}</h4>
                         <div>
                             <h5>Mobilfunk Dittmer GmbH (Itzehoe)</h5>
@@ -215,7 +222,7 @@ export default function Page2(){
                         <ul>
                             <li>{transl[lang].dittmerIZText}</li>
                         </ul>
-                    </section>
+                    </section> */}
                     {/* <section>
                         <h4>{transl[lang].mediaMarkt}</h4>
                         <div>

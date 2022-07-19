@@ -14,11 +14,11 @@ export default function App(){
             <div className="mainWrapper"  id={lang}>
                 <Nav/>
                 <Routes>
-                    <Route path="main/page1" element={<Page1/>}></Route>
+                    {/* <Route path="main/page1" element={<Page1/>}></Route> */}
                     <Route path="/" element={<CV/>}></Route>
                     <Route path="main/projects" element={<Projects/>}></Route>
-                    <Route path="main/logIn" element={<LogIn/>}></Route>
-                    <Route path="main/signIn" element={<SignIn/>}></Route>
+                    {/* <Route path="main/logIn" element={<LogIn/>}></Route>
+                    <Route path="main/signIn" element={<SignIn/>}></Route> */}
                 </Routes>
             </div>
     )
