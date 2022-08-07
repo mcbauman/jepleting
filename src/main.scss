@@ -10,39 +10,40 @@ html{
     background-color: rgb(73, 73, 73);
     font-family: 'Ubuntu', sans-serif;
     body{
-        background:linear-gradient(135deg, grey, lightgrey, grey,lightgrey,grey);
+        background-color: rgb(253, 244, 234);
+        // background:linear-gradient(135deg, grey, lightgrey, grey,lightgrey,grey);
         margin:0 auto;
-        max-width:800px;
-        background-color: white;
+        max-width:1200px;
         
         .mainWrapper{
             display: grid;
         grid-template-columns: 25fr 55fr;
         grid-template-areas:
-        "upleft upright"
+        "upright upright"
         "aside main";
-            nav{
-                grid-area: upleft;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-                align-items: center;
-                div{
-                    display: flex;
-                    flex-direction: column;
-                    a{
-                        color:darkred
-                    }
-                }
-                select{
-                    height: 60%;
+        
+        header{
+            padding: 15px;
+            grid-area: upright;
+            background-color:darkred;
+            color: antiquewhite;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            box-shadow: 0 5px 5px rgb(221, 198, 170);
+            position:sticky;
+            top:0;
+            select{
+                font-size: 2.5rem;
+                background-color: darkred;
+                option{
+                    font-size: 2.5rem;
+                    background-color: darkred;
                 }
             }
-
-            header{
-                padding: 15px;
-                grid-area: upright;
-                color:darkred;
             }
             aside{
                 padding: 0 15px;
@@ -59,17 +60,22 @@ html{
                 }
             }
             main{
-                width: 90%;
+                // width: 90%;
+                margin-right: 15px;
                 padding: 10px 15px;
                 border-radius: 15px;
-                background-color: white;
-                box-shadow: 5px 5px 5px lightgray inset;
+                // background-color: white;
+                box-shadow: -2px -2px 5px rgb(221, 198, 170) ;
                 table{
                     border-collapse: collapse;
                     width: 100%;
                 }
                 article{
                     section{
+                        &:hover{
+                            box-shadow: 0 0 5px rgb(221, 198, 170);
+                            background-color: antiquewhite;
+                        }
                         div{
                             display: flex;
                             justify-content: space-between;
@@ -90,7 +96,7 @@ main{
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-variant: small-caps;
 }
 h2{
@@ -98,14 +104,15 @@ h2{
     font-variant: small-caps;
 }
 h3{
-    font-size: 1.5rem;;
+    font-size: 1.8rem;;
     color:darkred;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 10px;
+    font-variant: small-caps;
 }
 h4{
     font-size: 1.3rem;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 h5{
     margin-top:15px;
@@ -276,10 +283,13 @@ svg{
             .mainWrapper{
                 grid-template-columns: 1fr;
                 grid-template-areas:
-                    "upleft"
                     "upright"
                     "aside"
                     "main";
+                main{
+                    margin-right: 0;
+                    margin-top: 15px;
+                }
             }
         }
     }
