@@ -12,10 +12,6 @@ export default function Page2(){
     const {lang}=useContext(Context)
     return(
         <>
-            <header>
-                <h1>Matthias Baumann</h1>
-                <h2>Web-Developer</h2>
-            </header>
             <aside>
             <img src={walp} alt=""/>
                 <article>
@@ -59,7 +55,7 @@ export default function Page2(){
                         </tr>
                         <tr>
                             <td>{transl[lang].english}</td>
-                            <td>B2</td>
+                            <td>C1</td>
                         </tr>
                         <tr>
                             <td>{transl[lang].russisch}</td>
@@ -143,9 +139,13 @@ export default function Page2(){
                     <section>
                         <h4>{trans[lang].intern}</h4>
                         <div>
-                            <h5>DMK IT Solutions</h5>
+                            <h5>DMK IT Solutions (Norderstedt)</h5>
                             <h5>07.2022-10.2022</h5>
                         </div>
+                        <ul>
+                            <li>{trans[lang].learningC}</li>
+                            <li>{trans[lang].later}</li>
+                        </ul>
                     </section>
                     <section>
                         <h4>Projekte DCI</h4>

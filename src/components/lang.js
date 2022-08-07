@@ -53,7 +53,9 @@ const trans={
         tutoringStudens:"Tutor für Studenten in Web Entwicklung",
         finalProject:"friendscircle.de",
         finalProjectText:"Abschluss Projekt",
-        intern:"Praktikum software-Entwickler/Manager"
+        intern:"Praktikum Software-Entwickler/Manager",
+        learningC:"C# lernen",
+        later:"Später: Vue.js, Blazor, Beratung und Teamführung"
     },
     en:{
         title:"title",
@@ -109,7 +111,9 @@ const trans={
         tutoringStudens:"Tutoring students from a different class",
         finalProject:"friendscircle.de",
         finalProjectText:"Final project",
-        intern:"Internship software-Developer/Manager"
+        intern:"Internship Software-Developer/Manager",
+        learningC:"learning C#",
+        later:"planned for later: Vue.js, Blazor, advisory und guiding the team"
     },
     ke:{
         title:"title",
@@ -165,7 +169,9 @@ const trans={
         tutoringStudens:"Tutoring students from a different class",
         finalProject:"friendscircle.de",
         finalProjectText:"Final project",
-        intern:"Internship software-Developer/Manager"
+        intern:"Internship Software-Developer/Manager",
+        learningC:"learning C#",
+        later:"planned for later: Vue.js, Blazor, advisory und guiding the team"
     }
 }
 export default trans
