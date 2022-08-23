@@ -145,6 +145,23 @@ export default function Page2(){
                         <ul>
                             <li>{trans[lang].learningC}</li>
                             <li>{trans[lang].later}</li>
+                            <li>{trans[lang].comparism}
+                                <a href="https://comparethelanguages.netlify.app" 
+                                    target="_blank" rel="noopener noreferrer"> 
+                                    <FaFirefox/> </a>
+                                <a href="https://github.com/mcbauman/ToDoFrontend"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <FaReact/>
+                                </a>
+                                <a href="https://github.com/mcbauman/ToDoBackendWithExpress"
+                                    target="_blank" rel="noopener noreferrer">
+                                    Express-BE 
+                                </a>
+                                <a href="https://github.com/mcbauman/ToDoListServerCSharp/tree/main"
+                                    target="_blank" rel="noopener noreferrer">
+                                     C#-BE
+                                </a>
+                            </li>
                         </ul>
                     </section>
                     <section>
