@@ -55,7 +55,7 @@ const trans={
         finalProjectText:"Abschluss Projekt",
         intern:"Praktikum Software-Entwickler/Manager",
         learningC:"C# lernen",
-        later:"Später: Vue.js, Blazor, Beratung und Teamführung",
+        later:"Später: Vue.js, Blazor, Flutter, Beratung und Teamführung",
         comparism:"FullStack-Projekt in C# und Express"
     },
     en:{
@@ -114,7 +114,7 @@ const trans={
         finalProjectText:"Final project",
         intern:"Internship Software-Developer/Manager",
         learningC:"learning C#",
-        later:"planned for later: Vue.js, Blazor, advisory und guiding the team",
+        later:"planned for later: Vue.js, Blazor, Flutter, advisory und guiding the team",
         comparism:"FullStack-project in C# and Express"
     },
     ke:{
@@ -173,7 +173,7 @@ const trans={
         finalProjectText:"Final project",
         intern:"Internship Software-Developer/Manager",
         learningC:"learning C#",
-        later:"planned for later: Vue.js, Blazor, advisory und guiding the team",
+        later:"planned for later: Vue.js, Blazor, Flutter, advisory und guiding the team",
         comparism:"FullStack-project in C# and Express"
     }
 }

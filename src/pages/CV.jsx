@@ -2,8 +2,9 @@ import transl from "../components/transl.js"
 import trans from "../components/lang.js"
 import {Context} from "../context/langContext.js"
 import { useContext } from "react"
-import {FaHtml5,FaCss3, FaJs, FaNodeJs, FaReact, FaCamera, FaHeart, FaRunning, FaSwimmer, FaPhone, FaAt, FaFirefox, FaGithub, FaEnvelope } from "react-icons/fa"
+import {FaHtml5,FaCss3, FaJs, FaNodeJs, FaReact, FaCamera, FaMobileAlt, FaRunning, FaSwimmer, FaPhone, FaAt, FaFirefox, FaGithub, FaEnvelope } from "react-icons/fa"
 import {IoBicycle} from "react-icons/io5"
+import {SiCsharp, SiExpress} from "react-icons/si"
 import {MdFamilyRestroom} from "react-icons/md"
 import {FaLinkedin} from "react-icons/fa"
 import walp from "./Walp21.jpg"
@@ -40,7 +41,11 @@ export default function Page2(){
                         </tr>
                         <tr>
                             <th><FaReact/></th>
-                            <td>React</td>
+                            <td>React/React-Native</td>
+                        </tr>
+                        <tr>
+                            <th><SiExpress/></th>
+                            <td>Express</td>
                         </tr>
                         </tbody>
                     </table>
@@ -153,13 +158,17 @@ export default function Page2(){
                                     target="_blank" rel="noopener noreferrer">
                                     <FaReact/>
                                 </a>
+                                <a href="https://github.com/mcbauman/ReactNative1"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <FaMobileAlt/>
+                                </a>
                                 <a href="https://github.com/mcbauman/ToDoBackendWithExpress"
                                     target="_blank" rel="noopener noreferrer">
-                                    Express-BE 
+                                    <SiExpress/>
                                 </a>
                                 <a href="https://github.com/mcbauman/ToDoListServerCSharp/tree/main"
                                     target="_blank" rel="noopener noreferrer">
-                                     C#-BE
+                                     <SiCsharp/>
                                 </a>
                             </li>
                         </ul>
