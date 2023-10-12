@@ -122,6 +122,7 @@ const trans={
         learningC:"learning C#",
         later:"planned for later: Vue.js, Blazor, Flutter, advisory und guiding the team",
         comparism:"FullStack-project in C# and Express",
+        dmk:"Business Software-Developer/Product Owner",
         seit:"since",
         kundenkontakt:"Customer advice/care regarding software projects",
         management:"Planning and management of software projects",
