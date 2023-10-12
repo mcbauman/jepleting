@@ -153,7 +153,7 @@ export default function Page2(){
                     <h4>{trans[lang].dmk}</h4>
                         <div>
                             <h5>DMK IT Solutions (Norderstedt)</h5>
-                            <h5>{trans[lang].seit} 1.2022</h5>
+                            <h5>{trans[lang].seit} 12.2022</h5>
                         </div>
                         <ul>
                             <li>{trans[lang].kundenkontakt}</li>
