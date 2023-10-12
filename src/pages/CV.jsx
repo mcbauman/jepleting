@@ -2,7 +2,7 @@ import transl from "../components/transl.js"
 import trans from "../components/lang.js"
 import {Context} from "../context/langContext.js"
 import { useContext } from "react"
-import {FaHtml5,FaCss3, FaJs, FaNodeJs, FaReact, FaCamera, FaMobileAlt, FaRunning, FaSwimmer, FaPhone, FaAt, FaFirefox, FaGithub, FaEnvelope } from "react-icons/fa"
+import {FaHtml5,FaCss3, FaJs, FaNodeJs, FaReact, FaCamera, FaMobileAlt, FaRunning, FaSwimmer, FaPhone, FaAt, FaFirefox, FaGithub, FaEnvelope, FaVuejs } from "react-icons/fa"
 import {IoBicycle} from "react-icons/io5"
 import {SiCsharp, SiExpress} from "react-icons/si"
 import {MdFamilyRestroom} from "react-icons/md"
@@ -36,12 +36,20 @@ export default function Page2(){
                             <td>JavaScript</td>
                         </tr>
                         <tr>
+                            <th><SiCsharp/></th>
+                            <td>C#</td>
+                        </tr>
+                        <tr>
                             <th><FaNodeJs/></th>
                             <td>node-js</td>
                         </tr>
                         <tr>
                             <th><FaReact/></th>
                             <td>React/React-Native</td>
+                        </tr>
+                        <tr>
+                            <th><FaVuejs/></th>
+                            <td>Vue.js</td>
                         </tr>
                         <tr>
                             <th><SiExpress/></th>
@@ -142,10 +150,22 @@ export default function Page2(){
                 <article>
                     <h3>{transl[lang].beruflicheErfahrungen}</h3>
                     <section>
+                    <h4>{trans[lang].dmk}</h4>
+                        <div>
+                            <h5>DMK IT Solutions (Norderstedt)</h5>
+                            <h5>{trans[lang].seit} 1.2022</h5>
+                        </div>
+                        <ul>
+                            <li>{trans[lang].kundenkontakt}</li>
+                            <li>{trans[lang].management}</li>
+                            <li>{trans[lang].entwicklung}</li>
+                            <li>{trans[lang].praktikanten}</li>
+                        </ul>
+                    </section><section>
                         <h4>{trans[lang].intern}</h4>
                         <div>
                             <h5>DMK IT Solutions (Norderstedt)</h5>
-                            <h5>07.2022-10.2022</h5>
+                            <h5>07.2022-1.2022</h5>
                         </div>
                         <ul>
                             <li>{trans[lang].learningC}</li>
@@ -212,7 +232,7 @@ export default function Page2(){
                         <h4>{transl[lang].sos}</h4>
                         <div>
                             <h5>SOS-Kinderdorf Harksheide e.V. (Norderstedt)</h5>
-                            <h5>08.2020-07.2021 bis</h5>
+                            <h5>08.2020-07.2021</h5>
                         </div>
                         <ul>
                             <li>{transl[lang].sosText}</li>
@@ -239,7 +259,7 @@ export default function Page2(){
                             <li>{transl[lang].dittmerText2}</li>
                         </ul>
                     </section>
-                    {/* <section>
+                    <section>
                         <h4>{transl[lang].dittmerIZ}</h4>
                         <div>
                             <h5>Mobilfunk Dittmer GmbH (Itzehoe)</h5>
@@ -248,8 +268,8 @@ export default function Page2(){
                         <ul>
                             <li>{transl[lang].dittmerIZText}</li>
                         </ul>
-                    </section> */}
-                    {/* <section>
+                    </section>
+                    <section>
                         <h4>{transl[lang].mediaMarkt}</h4>
                         <div>
                             <h5>MediaMarkt Hamburg-Altona</h5>
@@ -269,7 +289,7 @@ export default function Page2(){
                             <li>{transl[lang].lbsText}</li>
                             <li>{transl[lang].lbsText2}</li>
                         </ul>
-                    </section> */}
+                    </section>
                     <section>
                         <h4>{transl[lang].spk}</h4>
                         <div>
@@ -283,11 +303,11 @@ export default function Page2(){
                             <li>{transl[lang].spkText4}</li>
                         </ul>
                     </section>
-                    {/* <section>
+                    <section>
                         <h4>{transl[lang].vdf}</h4>
                         <div>
                             <h5>Vodafone Firmenkunden Hamburg</h5>
-                            <h5>06.2006-09.2007</h5>
+                            <h5>07.2008-09.2009</h5>
                         </div>
                         <ul>
                             <li>{transl[lang].vdfText1}</li>
@@ -298,12 +318,12 @@ export default function Page2(){
                         <h4>{transl[lang].haspa}</h4>
                         <div>
                             <h5>Hamburger Sparkasse (Haspa) AG</h5>
-                            <h5>08.2004-06.2006</h5>
+                            <h5>06.2006-09.2007</h5>
                         </div>
                         <ul>
                             <li>{transl[lang].paspaText}</li>
                         </ul>
-                    </section> */}
+                    </section>
                 </article>
             </main>
         </>

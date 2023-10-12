@@ -56,7 +56,13 @@ const trans={
         intern:"Praktikum Software-Entwickler/Manager",
         learningC:"C# lernen",
         later:"Später: Vue.js, Blazor, Flutter, Beratung und Teamführung",
-        comparism:"FullStack-Projekt in C# und Express"
+        comparism:"FullStack-Projekt in C# und Express",
+        dmk:"Business Software-Developer/Product Owner",
+        seit:"seit",
+        kundenkontakt:"Kundenkberatung-/Betreuung bzgl. Softwareprojekten",
+        management:"Planung und Management der Softwareprojekte",
+        entwicklung:"Softwareentwicklung",
+        praktikanten:"Betreuung der Praktikanten"
     },
     en:{
         title:"title",
@@ -115,7 +121,12 @@ const trans={
         intern:"Internship Software-Developer/Manager",
         learningC:"learning C#",
         later:"planned for later: Vue.js, Blazor, Flutter, advisory und guiding the team",
-        comparism:"FullStack-project in C# and Express"
+        comparism:"FullStack-project in C# and Express",
+        seit:"since",
+        kundenkontakt:"Customer advice/care regarding software projects",
+        management:"Planning and management of software projects",
+        entwicklung:"Softwaredevelopment",
+        praktikanten:"Supervision of interns"
     },
     ke:{
         title:"title",
@@ -174,7 +185,13 @@ const trans={
         intern:"Internship Software-Developer/Manager",
         learningC:"learning C#",
         later:"planned for later: Vue.js, Blazor, Flutter, advisory und guiding the team",
-        comparism:"FullStack-project in C# and Express"
+        comparism:"FullStack-project in C# and Express",
+        dmk:"Business Software-Developer/Product Owner",
+        seit:"since",
+        kundenkontakt:"Customer advice/care regarding software projects",
+        management:"Planning and management of software projects",
+        entwicklung:"Softwaredevelopment",
+        praktikanten:"Supervision of interns"
     }
 }
 export default trans
