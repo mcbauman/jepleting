@@ -3,6 +3,7 @@ const transl={
         resume:"Kurzbeschreibung",
         resumeText:"Starker Wille und Fokus halfen mir, Ziele zu erreichen, auch wenn die erforderlichen Fähigkeiten zunächst meine Schwächen waren. Beispiele sind meine Erfolge im Sport oder Verkauf, aber auch mein Englischniveau. Seit DCI habe ich die erste Vorstellung davon bekommen, wie schnell ich mein Wissen verbessern kann, wenn ich meiner wahren Leidenschaft nachgehe.",
         resumeText2:"Fokussierter und willensstarker Full Stack Web Entwickler mit Erfahrung in MongoDB, Express, React, und Node.js auf der Suche nach einer Tätigkeit als als Web/App-Developer, um meine  Fähigkeiten weiter zu vertiefen.",
+        resumeText3:"Abteilungsleiter Anwendungsentwicklung mit Erfahrung in Projektplanung und Realisierung von Individualsoftware für Firmenkkunden, Vertriebsprofi und Programmierer.",
         skills:"Programmiersprachen",
         language:"Sprachkenntnisse",
         deutsch:"Deutsch",
@@ -43,12 +44,14 @@ const transl={
         vdfText1:"Arbeitszeit-Studie Mehr Zeit am Kunden",
         vdfText2:"Entwicklung, Einführung und Pflege eine Tarifoptimierungs-Programms",
         haspa:"Jugend- und Privatkundenberater",
-        paspaText:"Kundenberatung alle Bankprodukte und Kundengruppen"
+        paspaText:"Kundenberatung alle Bankprodukte und Kundengruppen",
+        abteilungsleitung:"Abteilungsleitung Anwendungsentwicklung"
     },
     en:{
         resume:"Career objective",
         resumeText:"Strong will and focus hepled me to reach goals, even if the needed skill was initailly my weaknesses. Examples are my success in sports or sales, but also my English level. Since DCI I got the first idea of how fast I can improve my knowledge when I follow my real passion.",
         resumeText2:"Focused and strong-willed full stack web developer with experience in MongoDB, Express, React, and Node.js looking for a job as a web/app developer to expand my skills.",
+        resumeText3:"Head of software development with experience in project planning and implementation of individual software for corporate customers, sales professional and programmer.",
         skills:"Skills",
         language:"Language skills",
         deutsch:"German",
@@ -89,12 +92,14 @@ const transl={
         vdfText1:"Working time study More time with the customer",
         vdfText2:"Development, introduction and maintenance of a tariff optimization program",
         haspa:"Youth and private customer advisor",
-        paspaText:"Customer advice for all banking products and customer groups"
+        paspaText:"Customer advice for all banking products and customer groups",
+        abteilungsleitung:"Head of Softwaredevelopment"
     },
     ke:{
         resume:"Career objective",
         resumeText:"Strong will and focus hepled me to reach goals, even if the needed skill was initailly my weaknesses. Examples are my success in sports or sales, but also my English level. Since DCI I got the first idea of how fast I can improve my knowledge when I follow my real passion.",
         resumeText2:"Focused and strong-willed full stack web developer with experience in MongoDB, Express, React, and Node.js looking for a job as a web/app developer to expand my skills.",
+        resumeText3:"Head of software development with experience in project planning and implementation of individual software for corporate customers, sales professional and programmer.",
         skills:"Skills",
         language:"Language skills",
         deutsch:"German",
@@ -135,7 +140,8 @@ const transl={
         vdfText1:"Working time study More time with the customer",
         vdfText2:"Development, introduction and maintenance of a tariff optimization program",
         haspa:"Youth and private customer advisor",
-        paspaText:"Customer advice for all banking products and customer groups"
+        paspaText:"Customer advice for all banking products and customer groups",
+        abteilungsleitung:"Head of Softwaredevelopment"
     }
 }
 

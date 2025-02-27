@@ -3,7 +3,7 @@ import trans from "../components/lang.js"
 import {Context} from "../context/langContext.js"
 import { useContext } from "react"
 import {FaHtml5,FaCss3, FaJs, FaNodeJs, FaReact, FaCamera, FaMobileAlt, FaRunning, FaSwimmer, FaPhone, FaAt, FaFirefox, FaGithub, FaEnvelope, FaVuejs } from "react-icons/fa"
-import {IoBicycle} from "react-icons/io5"
+import {IoBicycle, IoLogoElectron} from "react-icons/io5"
 import {SiCsharp, SiExpress} from "react-icons/si"
 import {MdFamilyRestroom} from "react-icons/md"
 import {FaLinkedin} from "react-icons/fa"
@@ -17,7 +17,7 @@ export default function Page2(){
             <img src={walp} alt=""/>
                 <article>
                     <h3>{transl[lang].resume}</h3>
-                    <p>{transl[lang].resumeText2}</p>
+                    <p>{transl[lang].resumeText3}</p>
                 </article>
                 <article>
                     <h3>{transl[lang].skills}</h3>
@@ -54,6 +54,10 @@ export default function Page2(){
                         <tr>
                             <th><SiExpress/></th>
                             <td>Express</td>
+                        </tr>
+                        <tr>
+                            <th><IoLogoElectron/></th>
+                            <td>Electron</td>
                         </tr>
                         </tbody>
                     </table>
@@ -119,38 +123,16 @@ export default function Page2(){
             </aside>
             <main>
                 <article>
-                    <h3>{transl[lang].ausbildung}</h3>
-                    <section>
-                        <h4>{transl[lang].kurs}</h4>
-                        <div>
-                            <h5>DCI Digital Career Institute gGmbH (remote)</h5>
-                            <h5>09.2021-09.2022</h5>
-                        </div>
-                    <ul>
-                        <li>{transl[lang].kursText1}</li>
-                        <li>{transl[lang].kursText2}</li>
-                        <li>{transl[lang].kursText3}</li>
-                    </ul>
-                    </section>
-                    <section>
-                        <h4>{transl[lang].blw}</h4>
-                        <div>
-                            <h5>Universität Hamburg</h5>
-                            <h5>09.2007-09.2010</h5>
-                        </div>
-                    </section>
-                    <section>
-                        <h4>{transl[lang].aublildungBKM}</h4>
-                        <div>
-                            <h5>Hamburger Sparkasse (Haspa) AG</h5>
-                            <h5>08.2004-06.2006</h5>
-                        </div>
-                    </section>
-                </article>
-                <article>
                     <h3>{transl[lang].beruflicheErfahrungen}</h3>
                     <section>
-                    <h4>{trans[lang].dmk}</h4>
+                        <h4>{transl[lang].abteilungsleitung}</h4>
+                        <div>
+                            <h5>DMK IT Solutions (Norderstedt)</h5>
+                            <h5>{trans[lang].seit} 07.2024</h5>
+                        </div>
+                    </section>
+                    <section>
+                        <h4>{trans[lang].dmk}</h4>
                         <div>
                             <h5>DMK IT Solutions (Norderstedt)</h5>
                             <h5>{trans[lang].seit} 12.2022</h5>
@@ -161,7 +143,8 @@ export default function Page2(){
                             <li>{trans[lang].entwicklung}</li>
                             <li>{trans[lang].praktikanten}</li>
                         </ul>
-                    </section><section>
+                    </section>
+                    <section>
                         <h4>{trans[lang].intern}</h4>
                         <div>
                             <h5>DMK IT Solutions (Norderstedt)</h5>
@@ -323,6 +306,35 @@ export default function Page2(){
                         <ul>
                             <li>{transl[lang].paspaText}</li>
                         </ul>
+                    </section>
+                </article>
+                <article>
+                    <h3>{transl[lang].ausbildung}</h3>
+                    <section>
+                        <h4>{transl[lang].kurs}</h4>
+                        <div>
+                            <h5>DCI Digital Career Institute gGmbH (remote)</h5>
+                            <h5>09.2021-09.2022</h5>
+                        </div>
+                    <ul>
+                        <li>{transl[lang].kursText1}</li>
+                        <li>{transl[lang].kursText2}</li>
+                        <li>{transl[lang].kursText3}</li>
+                    </ul>
+                    </section>
+                    <section>
+                        <h4>{transl[lang].blw}</h4>
+                        <div>
+                            <h5>Universität Hamburg</h5>
+                            <h5>09.2007-09.2010</h5>
+                        </div>
+                    </section>
+                    <section>
+                        <h4>{transl[lang].aublildungBKM}</h4>
+                        <div>
+                            <h5>Hamburger Sparkasse (Haspa) AG</h5>
+                            <h5>08.2004-06.2006</h5>
+                        </div>
                     </section>
                 </article>
             </main>
